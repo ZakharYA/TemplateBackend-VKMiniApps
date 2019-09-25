@@ -3,10 +3,10 @@
 ##### Настройка `config.php`
 ```php
 <?php
-  DEFINE("VIEW_PHP_ERROR", false); // Показывать PHP Ошибки(работает при ошибки в методах)
-  DEFINE("CLIENT_SECRET", "123456789"); // Защитный ключ приложения, для проверки подписи
-  DEFINE("METHOD_LIST", array( // Список доступных методов, которые находятся в папке `methods`
-      "testing" // /methods/testing.php
+  DEFINE('VIEW_PHP_ERROR', false); // Показывать PHP Ошибки(работает при ошибки в методах)
+  DEFINE('CLIENT_SECRET', 'SECRET_ABC'); // Защитный ключ приложения, для проверки подписи
+  DEFINE('METHOD_LIST', array( // Список доступных методов, которые находятся в папке `methods`
+      'testing' // /methods/testing.php
 ));
 ```
 ##### Функции для методов
