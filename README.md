@@ -1,4 +1,4 @@
-#### **Пример библиотеки для back end сервиса в VK Mini Apps**
+# **Пример библиотеки для back end сервиса в VK Mini Apps**
 
 ##### Настройка `config.php`
 ```php
