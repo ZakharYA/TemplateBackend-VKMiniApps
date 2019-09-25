@@ -3,7 +3,7 @@
 
 class api
 {
-    public $dir_methods = __DIR__ . "/../methods/";
+    public $dir_methods = __DIR__ . '/../methods/';
 
     /**
      * The main function to be used. Verifies the signature and loads the method.
@@ -12,7 +12,7 @@ class api
      */
     public function Init()
     {
-        require "./config.php";
+        require './config.php';
 
         if(VIEW_PHP_ERROR)
         {
@@ -30,7 +30,7 @@ class api
 
         if(!$this->VerificationSignature())
         {
-            $this->ErrorResponse("Failed verification signature", 401);
+            $this->ErrorResponse('Failed verification signature', 401);
         }
 
         $this->LoadMethod();
