@@ -14,4 +14,8 @@
 
 `$this->ErrorResponse('Причина ошибки')` Тоже самое, что и выше, только в случае плохого результата.
 
+Пример запроса: 
+```
+http://localhost/TemplateBackend-VKMiniApps/index.php?method=testing&vk_access_token_settings=notify&vk_app_id=1&vk_are_notifications_enabled=0&vk_is_app_user=1&vk_language=ru&vk_platform=mobile_web&vk_ref=other&vk_user_id=1&sign=aMKOCC2GYNVL-AewtNxa1O31xgI3qEFJBZfaLnEFSXI
+```
 <a href="https://vk.com/ghost1337gg"><img src="https://pngicon.ru/file/uploads/vk.png" height=30></img></a>
