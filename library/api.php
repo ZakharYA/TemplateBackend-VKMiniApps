@@ -26,7 +26,7 @@ class api
             ini_set('display_startup_errors', 0);
         }
 
-        header('Content-Type: application/json; charset=utf-8');
+        header('Content-Type: application/json; charset=utf-8; Access-Control-Allow-Origin: *');
 
         if(!$this->VerificationSignature())
         {
